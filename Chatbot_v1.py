@@ -1,3 +1,5 @@
+#Created by hack-e-d
+#With love for those who want to learn 
 from nltk.chat.util import Chat, reflections
 pairs = [
     [
