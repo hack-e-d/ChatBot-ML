@@ -1,6 +1,9 @@
-#Created by hack-e-d
-#With love for those who want to learn 
 from nltk.chat.util import Chat, reflections
+from datetime import datetime, date
+today = date.today()
+now = datetime.now()
+time = now.strftime("%H:%M:%S")
+
 pairs = [
     [
         r"my name is (.*)",
@@ -21,6 +24,14 @@ pairs = [
     [
         r"i'm (.*) doing good",
         ["Nice to hear that","Alright :)",]
+    ],
+    [
+        r"what time is it?",
+        [str(time)]
+    ],
+    [
+        r"What date is it?",
+        [str(today)]
     ],
     [
         r"hi|hey|hello|holla",
