@@ -93,7 +93,7 @@ pairs = [
 ],
 ]
 def JARVIS():
-    print("Hi, I'm IRIS and I chat alot ;)\nPlease type lowercase English language to start a conversation. Type quit to leave ") #default message at the start
+    print("Hi, I'm JARVIS and I chat alot ;)\nPlease type lowercase English language to start a conversation. Type quit to leave ") #default message at the start
     JARVIS_chat = Chat(pairs, reflections)
     JARVIS_chat.converse()
 if __name__ == "__main__":
