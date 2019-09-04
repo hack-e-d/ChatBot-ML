@@ -11,7 +11,7 @@ pairs = [
     ],
      [
         r"what is your name ?",
-        ["My name is IRIS and I'm a chatbot ?",]
+        ["My name is JARVIS and I'm a chatbot ?",]
     ],
     [
         r"how are you ?",
@@ -92,9 +92,9 @@ pairs = [
         ["Bye take care. See you soon :) ","It was nice talking to you. See you soon :)"]
 ],
 ]
-def IRIS():
+def JARVIS():
     print("Hi, I'm IRIS and I chat alot ;)\nPlease type lowercase English language to start a conversation. Type quit to leave ") #default message at the start
-    IRIS_chat = Chat(pairs, reflections)
-    IRIS_chat.converse()
+    JARVIS_chat = Chat(pairs, reflections)
+    JARVIS_chat.converse()
 if __name__ == "__main__":
-    IRIS()
+    JARVIS()
